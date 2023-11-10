@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form table</title>
+    <link rel="stylesheet" href="style2.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+</head>
+<body>
+    <div class="white">
+            <div class="d">
+                <h1>D</h1>
+
+                <div class="icons">
+                <i class="bx bx-home"></i><br>
+                <i class="bx bxs-contact"></i><br>
+                <i class="bx bxs-megaphone"></i><br>
+                <i class="bx bxs-wrench"></i><br>
+                <i class="bx bx-bar-chart-square"></i><br>
+                <i class="bx bx-image-alt"></i><br>
+                <i class="bx bx-dollar-circle"></i>
+                </div> 
+                
+            </div> 
+            
+            <div class="head">
+                <div class="flex">
+                <h4 class="edit">Edit Contact</h4>
+
+                <div  class="dem">
+                    <h5 class="sky">dembsky inc.</h5>
+                    <i class="bx bxs-down-arrow"></i>
+                    </div>
+
+                    <div class="line"></div>
+                    
+                    <div class="logo">
+                    <i class="bx bxs-cog"></i>
+                    <i class="bx bxs-help-circle"></i>
+                    <i class="bx bxs-user"></i>
+                    </div>
+                    </div>
+                </div>
+
+            <div class="container">
+                <div class="groups">
+                <h5>Groups</h5>
+                <p class="in">Basic information</p>
+                <p class="address">Address info</p>
+                <p class="address">system info</p>
+               
+                <h5>Options</h5>
+                <p class="address">Mailing Lists</p>
+                <p class="address">view Mailings</p>
+                <p class="address">Tasks</p>
+                <p class="address">Notes</p>
+                <p  class="address">Audit Log</p>
+                </div>
+
+                <div class="kodu"></div>
+
+                <div class="main">
+                    <div class="center">
+                    <h4 class="basic">Basic information</h4>
+                    <form>
+                        <div class="lable">
+                            <label for="mail"><b>Email</b><sup><i class="bx bxs-circle"></i></sup></label><br>
+                            <input type="email" name="mail" value="contact@dembky.me" size="100">
+                        </div>
+                       
+                    <div class="main">
+                            <div class="lable1">
+                                <label for="fname"><b>First Name</b></label><br>
+                                <input type="text" id="fname" name="fname" value="Mateusa" size="45">
+                            </div>
+                            <div class="lable2">
+                                <label for="lname"><b>Last Name</b></label><br>
+                                <input type="text" id="lname" name="lname"
+                                value="Dembek" size="45">
+                              </div>
+                            </div>
+                            
+                            <div class="lable">
+                                <label for="fname"><b>Full Name</b></label><input type="text" value="Mateusz Dembek" size="100">
+                            </div>
+
+                            <div class="main">
+                            <div class="lable1">
+                                <label for="name"><b>Status</b><sup><i class="bx bxs-circle"></i></sup></label> <br><input type="text" id="Status" name="Status" value="Designer" size="45">
+                            </div>
+
+                            <div class="lable2">
+                                <label for="name"><b>Tracking</b><sup><i class="bx bxs-circle"></i></sup></label><br>
+                                <input type="text" id="Tracking" name="Tracking" value="Hell no" size="45">
+                            </div>
+                            </div>
+                    </form>
+
+                        <div class="middle">
+                            <h4 class="basic">Address information</h4>
+                            <form>
+                                <div class="lable">
+                                    <label for="address"><b>Address</b></label><br>
+                                    <input type="text" id="address" name="address" size="100">
+                                </div>
+
+                                <div class="lable">
+                                    <label for="Address"><b>Address Line  2</b></label><br>
+                                    <input type="text" id="Address" name="Address Line 2" value="Address Line (if needed)" size="100">
+                                </div>
+
+                               <div class="middle2">
+                                <div class="lable1">
+                                    <label for="city"><b>City</b></label><br>
+                                    <input type="text" id="city" name="city" value="Bydgoszcz" size="45">
+                                </div>
+
+                                <div class="lable2">
+                                    <label for="state"><b>State</b></label><br>
+                                    <input type="text" id="state" name="state" value="Kujawsko-Pomorskie" size="45">
+                                </div>
+                                </div>
+
+                                <div class="middle2">
+                                    <div class="lable1">
+                                    <label for="zip"><b>Zip</b></label><br>
+                                    <input type="text" id="zip" name="zip" value="85-123" size="45">
+                                </div>
+
+                                <div class="lable2">
+                                    <label for="county"><b>County</b></label><br>
+                                    <input type="text" id="cunty" name="county" value="County" size="45">
+                                </div>
+                                </div>
+
+                                <div class="middle">
+                                    <div class="lable">
+                                        <label for="country"><b>Country</b></label><br>
+                                        <input type="text" id="country" name="country" value="Poland" size="45">
+                                    </div>
+                                </div>
+
+                                <div class="mit">    
+                                <input class="set" type="reset" value="reset"><input class="sub" type="submit" value="submit">
+                                </div>
+                            
+                        </div>
+                        </div>
+
+            </form>
+            </div>
+            
+
+            <div class="left">
+                <div class="last">
+                    <table class="table">
+                        <tr>
+                        <th><button class="grp">Group Inputs</button></th><th><button class="sgl">Single Input</button></th>
+                        </tr>
+                    </table>
+                    <hr>
+
+                    <h4 class="add">Add Group Inputs</h4>
+                    <p class="click">Click and drag to add a new input anywhere on the <br>layout, then delete or edit fields to customize.</p>
+
+                    <div class="search">
+                        <input<i class="bx bx-search"></i><p class="word">Search</p>
+                    </div>
+
+                    <div class="one">
+                        <table>
+                           <tr>
+                            <td rowspan="2"> <div class="user"><i class="bx bx-user"></i></div></td>
+                            <th> Basic Information</th>
+                        </tr>
+                        <tr>
+                            <td>Email,First Name,Last Name,Full <br>Name, Status, Tracking</td>
+                        </tr>
+                    
+        </table>
+        </div>
+                <div>
+                    <table class="two">
+                        <tr>
+                            <td rowspan="2"> <div class="house"><i class="bx bxs-home"></i></div></td>
+                            <th>Address Information</th>
+                        </tr>
+                        <tr>
+                            <td>Address, City, State, Zip, County,<br> Country</td>
+                        </tr>
+                    </table>
+                </div>
+
+                <div>
+                    <table class="three">
+                        <tr>
+                        <td rowspan="2"> <div class="build"><i class="bx bxs-buildings"></i></div></td>
+                        <th>Company Information</th>
+                        </tr>
+                        <tr>
+                            <td>Name, Industry, Department, Title, Role, SIC Code, Company Size, Annual Revenue</td>
+                        </tr>
+                    </table>
+                </div>
+
+                <div>
+                    <table class="four">
+                        <tr>
+                            <td rowspan="2"> <div class="gup"><i class="bx bxs-group"></i></div></td>
+                            <th>Sales Representative</th>
+                        </tr>
+                        <tr>
+                            <td>Firsr Name, Last Name, Email, Phone, Photo</td>
+                        </tr>
+                    </table>
+                </div>
+
+                <div>
+                    <table class="five">
+                        <tr>
+                            <td rowspan="2"> <div class="lock"><i class="bx bx-target-lock"></i></div></td>
+                            <th>System Information</th>
+                        </tr>
+                        <tr>
+                            <td>Contact ID, External System ID, Source, Source, Usub Reason, Date Jined, Expire Date, Update Date, Never Put on hold</td>
+                        </tr>
+                    </table>
+                </div>
+                
+
+
+
+            </div>
+            </div>
+            </div>
+            
+                    
+
+     </div>
+
+    
+</body>
+</html>
